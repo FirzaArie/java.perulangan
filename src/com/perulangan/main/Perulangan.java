@@ -1,12 +1,16 @@
+//Jawaban No 1
 package com.perulangan.main;
 
 public class Perulangan {
 public static void main(String[] args) {
 	
-	int n = 8;
-	for(int i=1; i<=10; i++) {
-		System.out.printf("%d x %d = %d%n", n, i, n*i);
-	}
+	for(int i=1; i<=4; i++) {
+		for(int j=1; j<=3; j++) {
+			System.out.print("#");
+		}
+		System.out.printf("\n");
+	}	
+
 	
 }
 }
